@@ -22,7 +22,8 @@ def main():
     print("Filename => " + tail)
 
     # Let's make a backup copy by appending "bak" to name
-    dst = src + ".bak"
+    #dst = src + ".bak"
+    dst = os.path.expanduser("~")+"/Downloads/"
 
     # Use the shell to make a copy of the file
     shutil.copy(src,dst)
@@ -30,6 +31,8 @@ def main():
     # Copy over permission, modification
     shutil.copystat(src,dst)
 
+
+# -- Implementattion -- ##
 
 if __name__ == "__main__":
     main()
