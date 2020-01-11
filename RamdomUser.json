@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Nanna",
+                "last": "Poulsen"
+            },
+            "location": {
+                "street": {
+                    "number": 8994,
+                    "name": "Højgårdstoften"
+                },
+                "city": "Frederiksberg",
+                "state": "Sjælland",
+                "country": "Denmark",
+                "postcode": 22170,
+                "coordinates": {
+                    "latitude": "-33.0399",
+                    "longitude": "56.2921"
+                },
+                "timezone": {
+                    "offset": "-3:00",
+                    "description": "Brazil, Buenos Aires, Georgetown"
+                }
+            },
+            "email": "nanna.poulsen@example.com",
+            "login": {
+                "uuid": "bde5e53a-2fcc-4db5-9506-09170169dd89",
+                "username": "happybird610",
+                "password": "2727",
+                "salt": "0WXYRuvv",
+                "md5": "a9645f8ddc4a8a56ce3600d8071344e7",
+                "sha1": "906b790a56623b91fce8d6c36df5c66dedb5ceca",
+                "sha256": "bebb6c0763281ee26a26a4bfb23f3625905dbfaf78e9eefddbab82fd58f60431"
+            },
+            "dob": {
+                "date": "1949-08-08T17:26:27.295Z",
+                "age": 70
+            },
+            "registered": {
+                "date": "2010-05-28T03:25:51.464Z",
+                "age": 9
+            },
+            "phone": "04688559",
+            "cell": "51056743",
+            "id": {
+                "name": "CPR",
+                "value": "080849-8307"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/2.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/2.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
+            },
+            "nat": "DK"
+        }
+    ],
+    "info": {
+        "seed": "dbfbe6ca160924a7",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}
